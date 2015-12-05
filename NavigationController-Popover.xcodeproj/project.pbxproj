@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D43EEB01C122C550033F832 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D43EEAF1C122C550033F832 /* Animator.swift */; };
 		4DF01C1D1C10CF00002F0AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF01C1C1C10CF00002F0AD1 /* AppDelegate.swift */; };
 		4DF01C1F1C10CF00002F0AD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF01C1E1C10CF00002F0AD1 /* ViewController.swift */; };
 		4DF01C221C10CF00002F0AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF01C201C10CF00002F0AD1 /* Main.storyboard */; };
 		4DF01C241C10CF00002F0AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF01C231C10CF00002F0AD1 /* Assets.xcassets */; };
 		4DF01C271C10CF00002F0AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF01C251C10CF00002F0AD1 /* LaunchScreen.storyboard */; };
+		4DF01C2F1C10D3EE002F0AD1 /* PopoverVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF01C2E1C10D3EE002F0AD1 /* PopoverVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D43EEAF1C122C550033F832 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		4DF01C191C10CF00002F0AD1 /* NavigationController-Popover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavigationController-Popover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF01C1C1C10CF00002F0AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DF01C1E1C10CF00002F0AD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		4DF01C231C10CF00002F0AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF01C261C10CF00002F0AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF01C281C10CF00002F0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF01C2E1C10D3EE002F0AD1 /* PopoverVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				4DF01C1C1C10CF00002F0AD1 /* AppDelegate.swift */,
 				4DF01C1E1C10CF00002F0AD1 /* ViewController.swift */,
 				4DF01C201C10CF00002F0AD1 /* Main.storyboard */,
+				4DF01C2E1C10D3EE002F0AD1 /* PopoverVCViewController.swift */,
+				4D43EEAF1C122C550033F832 /* Animator.swift */,
 				4DF01C231C10CF00002F0AD1 /* Assets.xcassets */,
 				4DF01C251C10CF00002F0AD1 /* LaunchScreen.storyboard */,
 				4DF01C281C10CF00002F0AD1 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D43EEB01C122C550033F832 /* Animator.swift in Sources */,
 				4DF01C1F1C10CF00002F0AD1 /* ViewController.swift in Sources */,
+				4DF01C2F1C10D3EE002F0AD1 /* PopoverVCViewController.swift in Sources */,
 				4DF01C1D1C10CF00002F0AD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evenwerk.NavigationController-Popover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evenwerk.NavigationController-Popover";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -286,6 +296,7 @@
 				4DF01C2D1C10CF00002F0AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
